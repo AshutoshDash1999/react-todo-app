@@ -14,12 +14,7 @@ export default function App(){
       }
 
       function delTodo(event){
-        var indexOfEvent = todo.indexOf(event.target.value);
-        todo.splice(indexOfEvent, 1);
-        // list.style.display = "none"
-        setTodo((oldTodo) => {
-          return [...oldTodo, todo];
-        });
+        setTodo((prevState)=>(prevState.filter((item)=>(item!==event.target.value))))
       }
 
 
@@ -47,14 +42,15 @@ export default function App(){
           {todo.map((task) => {
             return (
               <li className="listStyle">
-                {" "}
-                {task}
+                <input type="checkbox"/>
+                {task} 
                 <button
                   onClick={(e) => delTodo(e)}
+                  class=""
                   id="removeTodoBtn"
                   value={task}
                 >
-                  Remove
+                   Remove
                 </button>
               </li>
             );

@@ -29,6 +29,7 @@ input{
     border-radius: 0.5rem;
     border: none;
     font-family: 'Varela Round', sans-serif;
+    box-shadow:  0 8px 24px  rgba(56, 3, 102, 0.2);
 }
 
 #addTodoBtn{
@@ -51,10 +52,6 @@ input{
     border-radius: 0.5rem;
     font-size: 3rem;
     width: 20rem;
-}
-
-#removeTodoBtn{
-    position:relative;
-    top: 10px;
-    right:0;
+    word-wrap: break-word;
+    box-shadow:  0 8px 24px  rgba(56, 3, 102, 0.2);
 }
