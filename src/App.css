@@ -1,57 +1,9 @@
-body{
-    background: #FDE68A;
-}
-
 .App{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    margin-top: 5rem;
+    font-family: 'Nunito', sans-serif;
 }
 
-h1{
-    font-family: 'Varela Round', sans-serif;
-    font-size: 2.3rem;
-}
-
-input{
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    margin: 0.7rem;
-    font-size: 1.3rem;
-    border: none;
-}
-
-.btn{
-    padding: 0.5rem 1rem;
-    margin: 0.5rem;
-    font-size: 1.3rem;
-    border-radius: 0.5rem;
-    border: none;
-    font-family: 'Varela Round', sans-serif;
-    box-shadow:  0 8px 24px  rgba(56, 3, 102, 0.2);
-}
-
-#addTodoBtn{
-    background: #A7F3D0;
-    color: #064E3B;
-}
-
-#clearTodoBtn{
-    background: #FCA5A5;
-    color: #7F1D1D;
-}
-
-
-.listStyle{
-    font-family: 'Dongle', sans-serif;;
+li{
     list-style: none;
-    background: #A78BFA;
-    padding: 0.1rem 1rem;
-    margin: 0.5rem;
-    border-radius: 0.5rem;
-    font-size: 3rem;
-    width: 20rem;
-    word-wrap: break-word;
-    box-shadow:  0 8px 24px  rgba(56, 3, 102, 0.2);
+    margin-top: 1rem;
 }
